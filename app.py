@@ -23,8 +23,7 @@ and visualizes performance metrics and feature importances.
 
 # Load CSV
 
-FILE_PATH = r"D:\Resume Project\Projects\HR Employee Attrition Prediction Using Python & Machine Learning Project\HR_Employee_Attrition.csv"
-df = pd.read_csv(FILE_PATH)
+df = pd.read_csv("HR_Employee_Attrition.csv")
 
 st.subheader("Dataset Preview")
 st.write(df.head())
